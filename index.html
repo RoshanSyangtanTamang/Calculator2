@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+    <p class="display-calculation"></p>
+
     <p>
         <button onclick="
         updateCalculation(1);
@@ -66,6 +69,7 @@
     calculation = eval(calculation);
     console.log(calculation);
     localStorage.setItem('calculation', calculation);
+    document.querySelector('.display-calculation').innerHTML = calculation;
     ">=</button> 
     <button onclick="
     updateCalculation('/');
