@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.display-calculation {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+button {
+    border: none;
+    background-color: rgb(92, 92, 92);
+    color: white;
+    font-size: 25px;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.operator {
+    background-color: orange;
+}
